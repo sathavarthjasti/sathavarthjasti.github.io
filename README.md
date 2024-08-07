@@ -1,2 +1,2 @@
 # sathavarthjasti.github.io
-Personal Blog
+This is a Personal Blog with Vacation Pics
