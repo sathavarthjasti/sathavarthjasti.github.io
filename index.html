@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>I am Jasti Sathavarth and Welcome to my Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="post">
+            <h2>Vacation in Hawaii</h2>
+            <p>Last month, I visited the beautiful islands of Hawaii. Here are some pictures from my trip:</p>
+            <div class="gallery">
+                <img src="images/hawaii1.jpg" alt="Beach in Hawaii" class="gallery-img">
+                <img src="images/hawaii2.jpg" alt="Sunset in Hawaii" class="gallery-img">
+                <img src="images/hawaii3.jpg" alt="Mountain in Hawaii" class="gallery-img">
+            </div>
+        </article>
+        <article class="post">
+            <h2>Exploring the Alps</h2>
+            <p>This summer, I had an amazing time hiking in the Alps. Check out these breathtaking views:</p>
+            <div class="gallery">
+                <img src="images/alps1.jpg" alt="Mountain in the Alps" class="gallery-img">
+                <img src="images/alps2.jpg" alt="Valley in the Alps" class="gallery-img">
+                <img src="images/alps3.jpg" alt="Lake in the Alps" class="gallery-img">
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Personal Blog</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
